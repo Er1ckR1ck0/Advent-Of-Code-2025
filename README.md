@@ -1,6 +1,6 @@
-````markdown
-# Advent of Code 2025
 
+# Advent of Code 2025
+```markdown
 <pre>
         🎄
        🎁🟩
@@ -9,7 +9,7 @@
     🟩🟧🟩🟪🟩
        🟫🟫
 </pre>
-
+```
 Welcome to my Advent of Code 2025 solutions repository! 🎄✨
 
 ## About Advent of Code
