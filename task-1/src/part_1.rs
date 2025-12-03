@@ -1,14 +1,13 @@
 use std;
 use std::fs::File;
-use std::io::{ BufReader, BufRead};
+use std::io::{BufRead, BufReader};
 
 fn count_index(direction: &str, integer: i32, steps: i32) -> i32 {
     let mut steps = steps % 100;
 
     let result = if direction == "L" {
         integer - steps
-    }
-    else {
+    } else {
         integer + steps
     };
     result.rem_euclid(100)
@@ -29,7 +28,6 @@ fn main() -> Result<(), std::io::Error> {
         if current_item == 0 || current_item == 100 {
             password += 1;
         }
-        
     }
     println!("Password attempts: {}", password);
 
